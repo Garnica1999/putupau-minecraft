@@ -18,18 +18,18 @@ Este servidor tiene función de crossplay habilitada. Jugadores de minecraft en 
     
 ## Cómo ejecutar?
 Para ejecutar la versión de este repositorio, simplemente clone el repositorio completamente usando el siguiente comando:
-`git clone https://github.com/Garnica1999/putupau-minecraft.git`
+```git clone https://github.com/Garnica1999/putupau-minecraft.git```
 Posteriormente, cambiamos de rama usando el siguiente comando:
-`git checkout develop/2025`
+```git checkout develop/2025```
 Para evitar errores de sincronziación y archivos faltantes, ejecutar el siguiente comando:
-`git pull origin develop/2025`
+```git pull origin develop/2025```
 Luego, sólamente basta con ejecutar el script `run.sh` o `run.fish` si tienes como shell a fish.
 ```
 chmod +x ./run.sh
 ./run.sh
 ```
 Cabe aclarar que estos scripts son para ejecutar el servidor en linux. Para windows puede utilizar:
-`java -Xms2048m -Xms2048m -jar paper-1.21.8-50.jar nogui`
+```java -Xms2048m -Xms2048m -jar paper-1.21.8-50.jar nogui```
 
 ### Dependencias de ejecución.
 Necesitas el JDK de Java 21 para ejecutar el servidor. Recomendamos OpenJDK para poderlo ejecutar. SI lo vas a ejecutar en Windows, asegurate de que tengas la variable de entorno `%JAVA_HOME%` y en el path la carpeta bin que está adentro de la variable anteriormente mencionada.
